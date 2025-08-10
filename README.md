@@ -5,7 +5,6 @@
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-purple.svg)](https://kotlinlang.org)
 [![Android API](https://img.shields.io/badge/API-21%2B-brightgreen.svg)](https://android-arsenal.com/api?level=21)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 </div>
 
 ## 📖 Description
@@ -61,7 +60,7 @@
 </div>
 
 ### 🎥 Demo Video
-[📹 Screen Recording Demo](assets/Screen%20Recording%202025-08-10%20at%2019.33.57.mov)
+[📹 Screen Recording Demo](assets/demo.mp4)
 
 ## 🏗️ Project Structure
 
