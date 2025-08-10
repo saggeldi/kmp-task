@@ -60,7 +60,7 @@
 </div>
 
 ### 🎥 Demo Video
-[📹 Screen Recording Demo](assets/demo.mp4)
+assets/demo.mp4
 
 ## 🏗️ Project Structure
 
