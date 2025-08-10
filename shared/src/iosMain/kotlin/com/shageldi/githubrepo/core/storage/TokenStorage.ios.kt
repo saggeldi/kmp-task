@@ -1,7 +1,5 @@
 package com.shageldi.githubrepo.core.storage
 
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 import platform.Foundation.NSUserDefaults
 
 actual class TokenStorage {

@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.MediumTopAppBar
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -20,6 +19,14 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 
+/**
+ * Компонент для отображения верхней панели приложения.
+ *
+ * @param modifier Модификатор для настройки компонента
+ * @param title Заголовок, отображаемый в центре панели
+ * @param startAction Компонуемая функция для отображения действия в начале панели (необязательно)
+ * @param endAction Компонуемая функция для отображения действия в конце панели (необязательно)
+ */
 @Composable
 fun AppTopBar(
     modifier: Modifier = Modifier,

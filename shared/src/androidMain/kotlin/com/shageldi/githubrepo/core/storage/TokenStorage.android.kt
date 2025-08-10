@@ -2,8 +2,6 @@ package com.shageldi.githubrepo.core.storage
 
 import android.annotation.SuppressLint
 import android.content.Context
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 
 actual class TokenStorage(private val context: Context) {
     private val prefs = context.getSharedPreferences("auth_prefs", Context.MODE_PRIVATE)

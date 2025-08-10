@@ -21,6 +21,17 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.shageldi.core_ui.R
 
+
+/**
+ * Компонент для отображения состояния экрана.
+ *
+ * @param modifier Модификатор для настройки компонента
+ * @param loading Флаг загрузки, если true - отображается индикатор загрузки
+ * @param error Текст ошибки, если не null - отображается экран с ошибкой
+ * @param retryMessage Текст кнопки повтора
+ * @param onRetry Обработчик нажатия кнопки повтора
+ * @param content Содержимое экрана при отсутствии ошибки и загрузки
+ */
 @Composable
 fun AppScreenState(
     modifier: Modifier = Modifier,
@@ -32,7 +43,9 @@ fun AppScreenState(
 ) {
     Box(modifier = modifier) {
        if (loading) {
-           CircularProgressIndicator(Modifier.size(35.dp).align(Alignment.Center), color = MaterialTheme.colorScheme.onSurface)
+           CircularProgressIndicator(Modifier
+               .size(35.dp)
+               .align(Alignment.Center), color = MaterialTheme.colorScheme.onSurface)
        } else if (error != null) {
            Column(
                modifier = Modifier.align(Alignment.Center),

@@ -14,6 +14,7 @@
 🚀 **Key Features:**
 - 🔐 Secure authentication using GitHub Personal Access Tokens
 - 📱 Browse your first 10 repositories with elegant UI
+- 🌐 User can select Russian or English from device settings using Per-app language preferences of android (Settings > Apps > (select a GHRepo app) > Language)
 - 🔍 Detailed repository information including stats, license, and README
 - 📊 Repository statistics (forks, stars, watchers)
 - 🌐 Direct links to repository web pages

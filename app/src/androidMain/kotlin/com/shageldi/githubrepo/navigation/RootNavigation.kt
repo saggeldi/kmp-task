@@ -23,6 +23,7 @@ fun RootNavigation() {
     val authViewModel: AuthViewModel = koinViewModel()
     val isLoggedIn = authViewModel.isLoggedState.collectAsState()
 
+    // Этот код проверяет, вошел ли пользователь в систему перед началом навигации. Return добавлен потому что isLoggedIn.value может быть равным null на более медленных и старых устройствах Android
     if (isLoggedIn.value == null) {
         CheckScreen()
         return

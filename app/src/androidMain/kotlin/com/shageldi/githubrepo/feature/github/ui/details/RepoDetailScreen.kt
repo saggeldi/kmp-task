@@ -1,10 +1,8 @@
 package com.shageldi.githubrepo.feature.github.ui.details
 
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Icon
@@ -12,16 +10,12 @@ import androidx.compose.material3.IconButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 import com.shageldi.core_ui.component.AppScreenState
 import com.shageldi.core_ui.component.AppTopBar
 import com.shageldi.core_ui.component.EmptyMessage
-import com.shageldi.core_ui.component.GithubReadme
-import com.shageldi.core_ui.state.LocalDarkMode
 import com.shageldi.githubrepo.R
 import com.shageldi.githubrepo.feature.github.viewmodel.GithubViewModel
 import com.shageldi.githubrepo.util.UiText
