@@ -60,7 +60,7 @@
 </div>
 
 ### 🎥 Demo Video
-https://raw.githubusercontent.com/saggeldi/kmp-task/refs/heads/master/assets/demo.mp4
+[📹 Screen Recording Demo](https://raw.githubusercontent.com/saggeldi/kmp-task/refs/heads/master/assets/demo.mp4)
 
 ## 🏗️ Project Structure
 
