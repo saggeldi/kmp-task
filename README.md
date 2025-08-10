@@ -19,6 +19,12 @@
 - 🌐 Direct links to repository web pages
 - 📄 Built-in README viewer with markdown support
 
+🚀 **CI/CD with GitHub Actions**
+- 🏗️ Automated build process description
+- 📧 Email distribution setup for APK delivery
+- 🔄 Workflow trigger conditions
+- 🎯 Required GitHub secrets configuration
+
 ## 🛠️ Technologies Used
 
 ### Core Technologies
@@ -109,6 +115,20 @@ GitHubRepo/
   - Launch Android Studio
   - Select "Open an existing project"
   - Navigate to the cloned directory
+
+3. **Create jks file and config files**
+   - Upload your own jks file to app/keystore folder
+   - Create keystore_config.cfg file with following content inside app/keystore folder
+      ```
+     storeFile = keystore/app.jks
+     storePassword = test
+     keyPassword = test
+     keyAlias = upload
+     ```
+   - Create app.cfg file with following content inside shared/config folder
+      ```
+      GH_API_VERSION = 2022-11-28
+     ```
 
 3. **Build the project**
    ```bash
