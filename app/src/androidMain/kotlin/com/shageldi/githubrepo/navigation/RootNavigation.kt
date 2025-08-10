@@ -2,7 +2,6 @@ package com.shageldi.githubrepo.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
-import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
@@ -32,7 +31,7 @@ fun RootNavigation() {
     fun logout() {
         authViewModel.logout()
         navHostController.navigate(Routes.SignInScreen) {
-            popUpTo(navHostController.graph.findStartDestination().id) {
+            popUpTo(0) {
                 inclusive = true
             }
         }
