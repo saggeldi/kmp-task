@@ -1,0 +1,17 @@
+package com.shageldi.githubrepo.core.feature.github.domain
+
+import com.shageldi.githubrepo.core.feature.github.domain.model.RepoListModel
+import com.shageldi.githubrepo.core.feature.github.domain.model.SingleRepoModel
+import com.shageldi.githubrepo.core.network.Result
+import kotlinx.coroutines.flow.Flow
+
+class GithubUseCase(
+    private val repository: GithubRepository
+) {
+    suspend fun getRepositories(perPage: Int, page: Int, sort: String): Flow<Result<List<RepoListModel>>> {
+        return repository.getRepositories(perPage, page, sort)
+    }
+    suspend fun getRepository(fullName: String): Flow<Result<SingleRepoModel>> {
+        return repository.getRepository(fullName)
+    }
+}

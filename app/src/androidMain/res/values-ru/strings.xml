@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="unknown_error">Что-то пошло не так!!</string>
+    <string name="sing_in_success">Вы успешно вошли в систему</string>
+
+    <!-- Sign In Screen -->
+    <string name="sign_in_title">Вход</string>
+    <string name="sign_in_subtitle">Получите доступ к своим репозиториям GitHub</string>
+    <string name="sign_in_button">Войти</string>
+    <string name="sign_in_error_button">Ошибка</string>
+    <string name="sign_in_token_is_empty">Токен не может быть пустым</string>
+
+    <!-- GitHub Token -->
+    <string name="github_token_label">Персональный токен доступа GitHub</string>
+    <string name="github_token_placeholder">ghp_xxxxxxxxxxxxxxxxxxxx</string>
+    <string name="github_token_helper">Введите свой персональный токен доступа GitHub</string>
+    <string name="github_token_info">Вы можете сгенерировать персональный токен доступа в настройках GitHub в разделе "Developer settings" → "Personal access tokens" → "Tokens (classic)"</string>
+
+    <!-- Token Visibility -->
+    <string name="show_token">Показать токен</string>
+    <string name="hide_token">Скрыть токен</string>
+    <string name="paste_from_clipboard">Вставить из буфера обмена</string>
+
+    <!-- Common -->
+    <string name="loading">Загрузка…</string>
+    <string name="error_generic">Что-то пошло не так. Пожалуйста, попробуйте снова.</string>
+    <string name="error_network">Ошибка сети. Пожалуйста, проверьте соединение.</string>
+    <string name="error_authentication">Ошибка аутентификации. Пожалуйста, проверьте токен.</string>
+
+    <!-- Navigation -->
+    <string name="repos">Репозитории</string>
+
+    <!-- Content Descriptions -->
+    <string name="content_description_logo">Логотип приложения</string>
+    <string name="content_description_back">Назад</string>
+    <string name="content_description_logout">Выйти</string>
+    <string name="content_description_retry">Повторить</string>
+    <string name="content_description_github">GitHub</string>
+    <string name="content_description_link">Ссылка</string>
+    <string name="content_description_license">Лицензия</string>
+
+    <!-- App screen state -->
+    <string name="empty">Данные не найдены</string>
+    <string name="error">Ошибка</string>
+    <string name="retry">Повторить</string>
+
+    <!-- Details Screen -->
+    <string name="license">Лицензия</string>
+    <string name="stars">звёзды</string>
+    <string name="forks">форки</string>
+</resources>
