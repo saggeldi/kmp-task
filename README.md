@@ -74,14 +74,14 @@
 ```
 GitHubRepo/
 ├── 📱 app/                     # Android application module
-│   ├── src/main/
+│   ├── src/androidMain/
 │   │   ├── kotlin/            # Android-specific code
 │   │   └── AndroidManifest.xml
 │   └── build.gradle.kts
 │
 ├── 🎨 core_ui/                 # UI components and theming
-│   ├── src/commonMain/
-│   │   └── kotlin/            # Shared UI components
+│   ├── src/main/
+│   │   └── java/            # Shared UI components
 │   └── build.gradle.kts
 │
 ├── 🤝 shared/                  # Kotlin Multiplatform shared code
@@ -137,9 +137,6 @@ GitHubRepo/
    ```
 
 4. **Run the app**
-   ```bash
-   ./gradlew :app:installDebug
-   ```
 
 ### 🔑 Authentication Setup
 

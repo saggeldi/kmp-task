@@ -26,7 +26,7 @@ import javax.net.ssl.SSLSocketFactory
 import javax.net.ssl.TrustManager
 import javax.net.ssl.X509TrustManager
 
-
+// Иногда OkHttp клиент отклоняет запросы, если SSL-сертификат недействителен, поэтому я добавил эту функцию для отключения этой ошибки
 fun getUnsafeClient(): OkHttpClient {
     val trustAllCerts: Array<TrustManager> = arrayOf(
         @SuppressLint("CustomX509TrustManager")
